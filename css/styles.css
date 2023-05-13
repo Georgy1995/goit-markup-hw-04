@@ -507,16 +507,6 @@ color: var(--btn-hover-focus-title-color);
   align-items: baseline;
   margin-right: 120px;
 }
-.footer-social-media{
-display: flex;
-}
-
-.social-list-footer{
-  display:flex;
-  margin-top: 16px;
-  gap: 24px;
-  margin-left: 120px;
-}
 .our-principles-container{
   display: flex;
   justify-content: center;
