@@ -8,6 +8,7 @@
   --logo-main-button-color: #4d5ae5;
   --body-color: #434455;
   --main-button-border-color: #e7e9fc;
+  --fifth-section-link-color: #8e8f99;
 }
 button {
   cursor: pointer;
@@ -436,6 +437,7 @@ border-radius: 4px;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
+line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -449,6 +451,29 @@ color: var(--main-color);
   justify-content:center;
   align-items: center;
   gap: 24px;
+}
+.fifth-section-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+border-radius: 4px;
+color:var( --fifth-section-link-color);
+}
+.fifth-section-link:hover{
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  
+}
+.fifth-section-link:focus{
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  
+}
+.fifth-section-icon{
+  fill: currentColor;
 }
 .page-footer {
   background-color: #2e2f42;
@@ -502,15 +527,7 @@ display: flex;
 border-radius: 4px;
 margin-bottom: 8px;
 }
-.fifth-section-link{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 168px;
-  height: 88px;
-  border: 1px solid #8E8F99;
-border-radius: 4px;
-}
+
 .portfolio-section-link{
   display: block; 
 }
