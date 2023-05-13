@@ -491,21 +491,28 @@ color:var( --fifth-section-link-color);
 
   color: var(--text-second-part-logo-footer-color);
 }
-.social-media-text-footer{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-margin-left: 269px;
-color: var(--btn-hover-focus-title-color);
-}
 
 .footer-container{
   display: flex;
   align-items: baseline;
+}
+.logo-text-footer{
   margin-right: 120px;
+}
+.social-media-text-footer{
+  font-family: var(--main-font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+
+color:var(--btn-hover-focus-title-color);
+}
+.social-list-footer{
+  display: flex;
+  gap: 16px;
+
 }
 .our-principles-container{
   display: flex;
